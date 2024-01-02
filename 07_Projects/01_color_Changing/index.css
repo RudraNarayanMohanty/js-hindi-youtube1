@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: #fff;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Canvas styles */
+  .canvas {
+    margin: 20px;
+  }
+  
+  .project-link {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #212121;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #212121;
+  }
+  
+  .project-link:hover {
+    background-color: #212121;
+    color: #fff;
+  }
+  
+  h1, h2 {
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Define specific colors for each button */
+  .button[alt="yellow"] {
+    background-color: yellow;
+  }
+  
+  .button[alt="blue"] {
+    background-color: blue;
+  }
+  
+  .button[alt="green"] {
+    background-color: green;
+  }
+  
+  .button[alt="red"] {
+    background-color: red;
+  }
+  
